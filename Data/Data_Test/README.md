@@ -1,0 +1,1 @@
+# Dữ liệu Test model  nhận diện

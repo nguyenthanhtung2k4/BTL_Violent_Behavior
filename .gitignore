@@ -1,15 +1,3 @@
-# Loại models không quan trọng
-3.1cnn_224_20.keras
-V3cnn_data2_224_20.keras
-
-# Loại bỏ CÁC DỮ LIỆU BÊN TRONG FOLDER
-Data_Quay/*
-!Data_Quay/README.md
-Data_Test/*
-!Data_Test/README.md
-# Loại bỏ data da  zip  roi
-*.zip
-
 # echo "# BTL_Violent_Behavior" >> README.md
 # git init
 # git add README.md
@@ -17,3 +5,17 @@ Data_Test/*
 # git branch -M main
 # git remote add origin https://github.com/nguyenthanhtung2k4/BTL_Violent_Behavior.git
 # git push -u origin main
+
+
+# Loại models không quan trọng
+3.1cnn_224_20.keras
+V3cnn_data2_224_20.keras
+
+# Loại bỏ CÁC DỮ LIỆU BÊN TRONG FOLDER
+Data/Data_Quay/*
+!Data/Data_Quay/README.md
+Data/Data_Test/*
+!Data/Data_Test/README.md
+# Loại bỏ data da  zip  roi
+*.zip
+
