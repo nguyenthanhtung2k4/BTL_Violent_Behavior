@@ -9,8 +9,8 @@ Dự án "Violent_Behavior" tập trung vào việc phát hiện và phân loạ
 | MSV        | Họ và tên           | Tên trường           |
 | :--------- | :------------------ | :------------------- |
 | 1771020729 | Nguyễn Thanh Tùng   | Dai Nam University  |
-| 1771020729 | Lê Văn Vượng        | Dai Nam University  |
-| 1771020729 | Nguyễn Quang Thịnh | Dai Nam University  |
+| 1771020771 | Lê Văn Vượng        | Dai Nam University  |
+| 1771020650 | Nguyễn Quang Thịnh | Dai Nam University  |
 <br>
 
 ### Phân công công việc:
