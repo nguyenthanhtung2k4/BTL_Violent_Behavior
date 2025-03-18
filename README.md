@@ -1,6 +1,9 @@
 <center><h1>Báo cáo</h1></center>
-![Img](./reluts/logoDaiNam.png)
-## Violent_Behavior
+
+![Logo](./reluts/logoDaiNam.png)
+
+
+## Bài báo cáo nhận diện hành vi bạo lực (Violent_Behavior)
 
 Dự án "Violent_Behavior" tập trung vào việc phát hiện và phân loại hành vi bạo lực trong video sử dụng các mô hình học sâu. Mục tiêu là xây dựng một hệ thống có khả năng nhận diện tự động các hành động bạo lực, từ đó hỗ trợ trong các ứng dụng giám sát an ninh, phân tích nội dung video, và các lĩnh vực liên quan.
 
