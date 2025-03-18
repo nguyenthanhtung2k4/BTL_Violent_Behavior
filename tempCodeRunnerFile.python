@@ -1,0 +1,10 @@
+from sklearn.metrics import average_precision_score
+import numpy as np
+
+# y_true: Nhãn thực tế (0 hoặc 1)
+# y_scores: Độ tin cậy dự đoán
+y_true = np.array([0, 0, 1, 1])
+y_scores = np.array([0.1, 0.4, 0.35, 0.8])
+
+average_precision = average_precision_score(y_true, y_scores)
+print(f"Average Precision: {average_precision}")

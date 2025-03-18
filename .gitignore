@@ -10,12 +10,17 @@
 # Loại models không quan trọng
 3.1cnn_224_20.keras
 V3cnn_data2_224_20.keras
-
+2DCNN_data2_112_20_e50_batch32.keras
+CNN3D_LSTM_HockeyFight.keras
 # Loại bỏ CÁC DỮ LIỆU BÊN TRONG FOLDER
 Data/Data_Quay/*
 !Data/Data_Quay/README.md
 Data/Data_Test/*
 !Data/Data_Test/README.md
+xuat/*
+!xuat/README.md
+
+env_BaoLuc/*
 # Loại bỏ data da  zip  roi
 *.zip
 

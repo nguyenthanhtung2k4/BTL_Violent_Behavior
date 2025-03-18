@@ -15,8 +15,8 @@ from tensorflow.keras.callbacks import EarlyStopping
 # ========================================================================
 IMG_SIZE = 112
 FRAMES_PER_VIDEO = 25
-CHANNELS = 3
-NUM_CLASSES = 2
+CHANNELS = 3 # do  xanh vang
+NUM_CLASSES = 2 # 
 BATCH_SIZE = 16
 EPOCHS = 20
 LEARNING_RATE = 1e-4
