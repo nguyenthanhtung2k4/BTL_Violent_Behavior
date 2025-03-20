@@ -36,169 +36,233 @@ Dự án "Violent_Behavior" tập trung vào việc phát hiện và phân loạ
 <p align="center">
   <img src="images/Quytrinhdiemdanh.png" alt="System Architecture" width="800"/>
 </p> -->
+### 📽️ Video giới thiệu
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pzc_UhXSMHM?si=fJcg5W5KMnf5Lydp&amp;start=2287" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<p align="center">
+  <img src="https://youtu.be/pzc_UhXSMHM?si=CYVP0-Q0orwF2lXM" alt="About" width="800"/>
+</p>
+
+## 👨‍🏫 Thành viên:
+
+| MSV        | Họ và tên           | Tên trường           |
+| :--------- | :------------------ | :------------------- |
+| 1771020729 | Nguyễn Thanh Tùng   | Dai Nam University  |
+| 1771020771 | Lê Văn Vượng        | Dai Nam University  |
+| 1771020650 | Nguyễn Quang Thịnh | Dai Nam University  |
+<br>
 ---
+
 ## 📂 Cấu trúc dự án
 
 📦 Project  
 ├── 📂 Data  # Thư mục chứa Dữ liệu video<br>
-    ├── 📂 Data  # Thư mục chứa Dữ liệu video<br>
-├── 📂 Data  # Thư mục chứa Dữ liệu video
-├── 📂 AttendanceDB  # Thư mục chứa cơ sở dữ liệu MongoDB backup  
-├── 📂 AttendanceDB  # Thư mục chứa cơ sở dữ liệu MongoDB backup  
-├── 📂 AttendanceDB  # Thư mục chứa cơ sở dữ liệu MongoDB backup  
-├── 📂 AttendanceDB  # Thư mục chứa cơ sở dữ liệu MongoDB backup  
-├── 📂 AttendanceDB  # Thư mục chứa cơ sở dữ liệu MongoDB backup  
+│_____├── 📂 Data_Quay [Tại đây](./Data/Data_Quay/)   # Thư mục video quay được đánh giá video <br>
+│_____├── 📂 Data_Test [Tại đây](./Data/Data_Test/)  # Thư mục chứa Dữ liệu video Test mô hình<br>
+│_____├── 📂 DataSet [Tại đây](./Data/DataSet/)  # Thư mục chứa Dữ liệu video huấn luyện mô hình<br>
+├── 📂 Models  # Thư mục chứa mô hình đã được huấn luyện xong<br>
+├── 📂 results  # Thư mục chứa thông tin liên quan phục vụ cho  README  <br>
+├── 📂 Train  # Thư mục code huấn luyện mô hình<br>
+│_____├── 📄 [Train2D_CNN.py](./Train/Train2D_CNN.py)   # File chứa mã nguồn huấn luyện CNN 2D<br>
+│_____├── 📄 [Train3D_CNN.py](./Train/Train2D_CNN.py)   # File chứa code huấn luyện mô hình CNN 3D<br>
+│_____├── 📄 [Train3D_CNN_version.py](./Train/Train2D_CNN.py)   # File chứa code CNN 3D đã được cải tiến hơn <br>
+│_____├── 📄 [Train3D_CNN_version.py](./Train/Train2D_CNN.py)   # File chứa code CNN 3D đã được cải tiến hơn <br>
+├── 📂 Use  # Thư mục chứa Code sử dụng models sau khi train xong<br>
+│_____├── 📄 [[2D_CNN_liveVideo_SaveVideo.py](Use/2D_CNN_liveVideo_SaveVideo.py)]   # File chứa mã code sử dụng model Cnn 2D - Trong video + Lưu kết quả video Trong [Follder](./xuat/)<br>
+│_____├── 📄 [[Use/2D_CNN_liveVideo.py](Use/2D_CNN_liveVideo.py)]   # File chứa mã code sử dụng model CNN 2D- Trong video <br>
+│_____├── 📄 [[Use/V1_Save_video_3D_CNN.py](Use/V1_Save_video_3D_CNN.py)]   # File chứa mã code sử dụng model CNN 3D - Trong Video + Lưu kết quả  [Follder](./xuat/) <br>
+│_____├── 📄 [[Use/V1Camera.py](Use/V1Camera.py)]   # File chứa mã code sử dụng model CNN 3D - Trong **Camera** trực tiếp  <br>
+│_____├── 📄 [[Use/V1Frame.py](Use/V1Frame.py)]   # File chứa mã code sử dụng model CNN 3D - Trong từng khung hình  <br>
+│_____├── 📄 [[Use/V3_Live_Save_Video_3D_CNN.py](Use/V3_Live_Save_Video_3D_CNN.py)]   # File chứa mã code sử dụng model CNN 3D - Trong video +  [Follder](./xuat/)  <br>
+│_____├── 📄 [[Use/V3_Live_Save_Video_Frame_3D_CNN.py](Use/V3_Live_Save_Video_Frame_3D_CNN.py)]   # File chứa mã code sử dụng model CNN 3D - Trong video + Lưu video + khung hình trong  [Follder](./xuat/) <br>
+├── 📂 xuat  # Thư mục chứa Dữ liệu video<br>
+├── 📄 [[requiment.txt](requiment.txt)]  # File Setup các thư viên<br>
+├── 📄 [[.gitignore](.gitignore)]  # File chứa thông tin file không muốn đẩy lên git<br>
 
-
----
 
 
 
 ## 🛠️ CÔNG NGHỆ SỬ DỤNG
 
 <div align="center">
-
+<!-- 
 ### 📡 Phần cứng
 [![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![LED](https://img.shields.io/badge/LED-green?style=for-the-badge)]()
 [![Buzzer](https://img.shields.io/badge/Buzzer-red?style=for-the-badge)]()
-[![WiFi](https://img.shields.io/badge/WiFi-2.4GHz-orange?style=for-the-badge)]()
+[![WiFi](https://img.shields.io/badge/WiFi-2.4GHz-orange?style=for-the-badge)]() -->
 
 ### 🖥️ Phần mềm
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)]()
-[![MongoDB](https://img.shields.io/badge/MongoDB-4.x-green?style=for-the-badge&logo=mongodb)]()
-[![Flask](https://img.shields.io/badge/Flask-Framework-black?style=for-the-badge&logo=flask)]()
-[![Tkinter](https://img.shields.io/badge/Tkinter-GUI-yellow?style=for-the-badge)]()
-[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-blue?style=for-the-badge)]()
+
+[![Tensorflow](https://img.shields.io/badge/Tensorflow-blue)]()
+[![OpenCV](https://img.shields.io/badge/OpenCV-blue)]()
 
 </div>
 
 ## 🛠️ Yêu cầu hệ thống
 
-### 🔌 Phần cứng
+<!-- ### 🔌 Phần cứng
 - **Arduino Uno** (hoặc board tương thích) với **LED (2 màu) và còi**.
 - **Cáp USB** để kết nối Arduino với máy tính.
-- ⚠️ **Lưu ý:** Mặc định mã nguồn Arduino trong `ThongBao.ino` sử dụng cổng `COM5`. Nếu Arduino của bạn sử dụng cổng khác, hãy thay đổi biến `SERIAL_PORT` trong `chuongTrinh.py`.
+- ⚠️ **Lưu ý:** Mặc định mã nguồn Arduino trong `ThongBao.ino` sử dụng cổng `COM5`. Nếu Arduino của bạn sử dụng cổng khác, hãy thay đổi biến `SERIAL_PORT` trong `chuongTrinh.py`. -->
 
 ### 💻 Phần mềm
 - **🐍 Python 3+**
-- **🍃 MongoDB** (kết nối mặc định: `mongodb://localhost:27017/`)
-- **⚡ Arduino IDE** để nạp file `ThongBao.ino` lên board Arduino.
+- **⚡ Model** Yêu cầu phải có models đã huấn luyện rồi mới có thể dùng được.
 
 ### 📦 Các thư viện Python cần thiết
-Cài đặt các thư viện bằng lệnh:
+Cài đặt môi trường ảo và các thư viện bằng lệnh:
 
-    pip install pillow qrcode pymongo tkcalendar flask pyserial gtts pygame
-## 🧮 Bảng mạch
+#### Môi trường ảo:
 
-### 🔩 Kết nối phần cứng:
-<img src="images/Ketnoiphancung.png" alt="System Architecture" width="800"/>
+-Bước 1:Tao môi trường ảo + tên môi trường
+```bash
+python -m venv env_violent
+```
+-Bước 2:Truy vập Môi trường
+```bash
+cd env_violent/Scripts
+```
+-Bước 3: Kích hoạt  môi trường
+```bash
+activate.bat
+```
+-Nếu bạn muốn tắt môi trường ảo:
+```bash
+deactivate.bat 
+```
 
-### ⛓️‍💥 Hướng dẫn cắm dây
-| Thiết bị        | Chân trên thiết bị | Kết nối Arduino UNO | Ghi chú                         |
-|-----------------|-------------------|---------------------|---------------------------------|
-| Breadboard      | -                 | -                   | Dùng để kết nối linh kiện       |
-| Đèn LED xanh    | Anode (+), Cathode (-) | Anode → Digital Pin 9, Cathode → GND | Led thông báo khi sinh viên điểm danh đúng giờ|
-| Đèn LED đỏ      | Anode (+), Cathode (-) | Anode → Digital Pin 10, Cathode → GND | Led thông báo khi sinh viên điểm danh muộn|
-| Buzzer         | (+), (-)            | (+) → Digital Pin 11, (-) → GND |Còi thông báo khi sinh viên điểm danh muộn|
-| 7 dây điện      | -                 | -                   | Dùng để nối các linh kiện       |
+>  Cài đặt  thư  viên  cần thiết 
+#### Cài thư viện (pip)
+```bash
+pip install -r requiment.txt
+``` 
+## 📣 DOWNLOAD| DataSet 
+>  Có hai loại  DataSet mà chúng tôi đã train với models:
+- `Data1`: Đại diện cho dataset `'Hockey Fight Vidoes'`:
+  - Download về máy: [Tại đây](./Data/DataSet/Download_Data1.py) 
+  - Link Download kaggle: [Tại đây](https://www.kaggle.com/datasets/yassershrief/hockey-fight-vidoes/code)
+
+- `Data2` Đại diện cho dataset mà chúng tôi sưu tầm được:
+  - Download: [Tại đây](https://drive.google.com/file/d/1tWyFvSRmyhA_lbGTYzqlWT3_Ctl76Zue/view?usp=sharing)
 
 ## 🚀 Hướng dẫn cài đặt và chạy
-1️⃣ Chuẩn bị phần cứng
-- **Nạp mã Arduino**:
-
-    1. Mở file `ThongBao.ino` bằng Arduino IDE.
-    2. Kết nối board Arduino với máy tính.
-    3. Nạp (upload) mã nguồn lên board.
-    4. Đảm bảo Arduino xuất hiện trên cổng COM5 (hoặc thay đổi trong `chuongTrinh.py` nếu cổng khác COM5).
+1️⃣ Kích hoạt môi trường ảo
+- Để kích hoạt môi trường ảo [Xem tại đây](#-các-thư-viện-python-cần-thiết)
 
 2️⃣ Cài đặt thư viện Python. 
 
-Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cần thiết bằng pip.
+Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cần thiết [Ở đây](#-các-thư-viện-python-cần-thiết)
 
-3️⃣ Cấu hình MongoDB
-- Cài đặt MongoDB nếu chưa có.
-- Khởi động MongoDB và đảm bảo đang hoạt động tại `mongodb://localhost:27017/`.
-- Khôi phục cơ sở dữ liệu từ bản sao lưu:
+3️⃣  Chạy chương trình huấn luyện mô hình
 
-        mongorestore --db AttendanceDB "đường-dẫn-đến-thư-mục-AttendanceDB"
-- Ví dụ:
+  Huấn luyện mô hình CNN 2D [Tại đây](./Train/) # Các file đã được giải thích kĩ bên trên
 
-        mongorestore --db AttendanceDB "C:\Users\LENOVO\Documents\Demo2QR\AttendanceDB"
-📌 Lưu ý:
--	Tránh trùng lặp cơ sở dữ liệu: Trước khi thực hiện restore, hãy kiểm tra xem MongoDB đã có cơ sở dữ liệu tên AttendanceDB chưa. Nếu có, bạn có thể gặp lỗi hoặc dữ liệu cũ có thể bị ghi đè.
--	Đảm bảo MongoDB đang chạy: Nếu MongoDB chưa được khởi động, lệnh mongorestore sẽ không hoạt động.
+  Huấn luyện mô hình CNN 3D [Tại đây](./Train/) # Các file đã được giải thích kĩ bên trên
 
-4️⃣ Chạy các chương trình
+  Huấn luyện mô hình CNN 3D cải tiến [Tại đây](./Train/) # Các file đã được giải thích kĩ bên trên
 
-Để đảm bảo hệ thống hoạt động đúng cách, bạn cần khởi chạy `chuongTrinh.py` trước, thay vì chạy từng file con riêng lẻ. File này cung cấp giao diện chính và bao gồm logic kết nối với Arduino board. Nếu chạy trực tiếp các file con, việc kết nối với Arduino sẽ không hoạt động.
+👉 Lưu ý:
 
-✅ Chạy ứng dụng chính (`chuongTrinh.py`):
+ - Dữ liệu huấn luyện phải nằm trong thư mục Data/DataSet/
 
-    python chuongTrinh.py
-- Ứng dụng sẽ:
+ - Thay đổi các tham số huấn luyện (batch_size, epoch, learning_rate...) trong các file train nếu cần thiết.
+ --- 
+## 📌 CÀI ĐẶT VÀ SỬ DỤNG MÔ HÌNH ĐÃ HUẤN LUYỆN
 
-    - Khởi động **LED Service** tại `localhost:6000` để điều khiển LED và còi.
-    - Hiển thị giao diện chính (Tkinter) với các nút: **Tạo mã QR** và **Xem điểm danh**
+1️⃣ Cấu trúc thư mục quan trọng
 
-✅ Chạy ứng dụng quản lý điểm danh (`Diemdanh.py`):
+ - Models/ ➝ Chứa các mô hình đã huấn luyện
 
-    python Diemdanh.py
+ - Use/ ➝ Chứa các file để chạy mô hình trên video hoặc camera
 
-✅ Chạy ứng dụng tạo mã QR (`TaoQR.py`):
+ - xuat/ ➝ Thư mục lưu kết quả video xuất ra
 
-    python TaoQR.py
+2️⃣ Sử dụng mô hình đã huấn luyện
 
-## 📖 Hướng dẫn sử dụng
-1️⃣ Điểm danh qua QR code
+- Chạy mô hình CNN 2D trên video
 
-- Sinh viên nhận email chứa mã QR.
-- Khi quét mã, trình duyệt sẽ gửi yêu cầu điểm danh đến Flask server.
-- Hệ thống kiểm tra tính hợp lệ và cập nhật vào MongoDB, đồng thời điều khiển Arduino:
-    - ✅ Điểm danh đúng hạn → LED xanh.
-    - ⏳ Điểm danh trễ → LED đỏ, còi, phát thông báo.
-    
-2️⃣ Quản lý sinh viên & mã QR
-- Qua giao diện của TaoQR.py, bạn có thể:
-    - Thêm, sửa, xóa thông tin sinh viên.
-    - Nhập/xuất danh sách sinh viên từ/đến file CSV.
-    - Tạo QR cho sinh viên theo lớp hoặc toàn bộ sinh viên.
-    - Xóa mã QR cũ một cách thủ công.
+- Chạy mô hình CNN 3D trên video
 
-3️⃣ Xem lịch sử điểm danh
-- Qua giao diện của Diemdanh.py, bạn có thể:
-    - Lọc danh sách điểm danh theo ngày, lớp, trạng thái.
-    - Xuất dữ liệu điểm danh ra file CSV.
-    - Hệ thống tự động cập nhật và chốt các phiên điểm danh.
+- Chạy mô hình CNN 3D trên camera trực tiếp
 
-## ⚙️ Cấu hình & Ghi chú
+👉 Lưu ý:
 
-1. Cổng Arduino: 
-- Mặc định sử dụng COM5, có thể cập nhật trong `chuongTrinh.py`.
-2. Email gửi mã QR:
-- Trong `TaoQR.py`, cập nhật thông tin *sender_email* và *sender_password*.(sender email là địa chỉ email gửi, sender password là mật khẩu ứng dụng của email đó.)
-3. Thời gian hiệu lực mã QR: 
-- Mã QR có hiệu lực 100 phút kể từ thời điểm tạo.
-4. Môi trường mạng: 
-- Thiết bị quét QR cần kết nối cùng mạng với máy chủ.
+ - Kiểm tra đường dẫn đến file mô hình (Models/) trước khi chạy.
 
-## 📰 Poster
-<p align="center">
-  <img src="images/PosterNhom1.png" alt="System Architecture" width="800"/>
-</p>
+ - Đảm bảo dữ liệu đầu vào có định dạng phù hợp.
+## 📖 HƯỚNG DẪN SỬ DỤNG
+
+### Cách 1️⃣ Cách chạy mô hình trên video
+
+  -> Đặt video cần nhận diện vào thư mục Data/Data_Test [Tại đây](./Data/Data_Test/)
+
+  -> Chạy file python phù hợp với mô hình bạn muốn sử dụng
+
+  -> Kết quả sẽ hiển thị trên màn hình hoặc lưu vào thư mục xuat/   [Tại đây](./xuat/)
+
+### Cách2️⃣ Cách chạy mô hình trên camera trực tiếp
+
+ - Cắm webcam hoặc sử dụng camera laptop
+
+ - Chạy file Use/V1Camera.py [Tại đây](./Use/V1Camera.py)
+
+- - Quan sát kết quả hiển thị trên cửa sổ video
+## ⚙️ CẤU HÌNH VÀ GHI CHÚ
+
+- **Cấu hình mô hình**: Có thể điều chỉnh các tham số trong các file train.
+
+  - Tham số quan trọng:
+
+  - img_size = (112, 112) ➝ Kích thước ảnh đầu vào
+
+  - batch_size = 8 (CNN 3D) hoặc batch_size = 32 (CNN 2D)
+
+  - frames = 20 ➝ Số khung hình mỗi đoạn video
+
+- **Ghi chú:**
+
+  - Mô hình CNN 3D có độ chính xác cao hơn (97.67%) so với CNN 2D (78.63%)
+
+  - Mô hình có thể mở rộng để nhận diện các hành vi khác bằng cách huấn luyện với dataset mới.
+
+
+## Đánh giá & Kết quả:
+### Đánh giá mô hình
+---
+| Chỉ số|  3D CNN | 2D CNN|
+|-----------------|----------------|----------------|
+|Accuracy |97.67% |78.63%|
+|Loss| ~ 12% | ~ 40%| 
+| val_accuracy | 96 % | ~70.39%|
+|Size models|97,667 KB| 129,695|
+|frame| 20 |20|
+|img_size| 112x112|112x112|
+|bath|8|32|
+
+
+- Kết quả huấn luyện mô hình 3D CNN
+![img](./reluts/image3D.png)
+### Kết quả
+
+---
+![img](./reluts/imageRealTest3D.png)
+- Kết quả của mô hình 3D CNN ( Video không chứa bạo lực)
+---
 
 ## 🤝 Đóng góp
-Dự án được phát triển bởi 4 thành viên:
+Dự án được phát triển bởi 3 thành viên:
 
 | Họ và Tên       | Vai trò                  |
 |-----------------|--------------------------|
-| Nguyễn Nam Hưng | Phát triển toàn bộ mã nguồn, thiết kế cơ sở dữ liệu, kiểm thử, triển khai dự án và thực hiện video giới thiệu.|
-| Hoàng Mạnh Linh | Biên soạn tài liệu Overleaf, Poster, Powerpoint, thuyết trình, đề xuất cải tiến, và hỗ trợ bài tập lớn.|
-| Đào Đức Mạnh    | Thiết kế slide PowerPoint, hỗ trợ bài tập lớn.  |
-| Cao Văn Huy     | Hỗ trợ bài tập lớn       |
+| Nguyễn Thanh Tùng | Phát triển toàn bộ mã nguồn , hỗ trợ tài bài báo cáo|
+| Lê Văn Vượng |Thiết kế slide PowerPoint, hỗ trợ bài tập lớn, thuyết trình, tìm kiếm dataset|
+| Nguyễn Quang Thịnh   | Biên soạn tài liệu Overleaf,Thiết kế slide PowerPoint|
 
-© 2025 NHÓM 1, CNTT16-03, TRƯỜNG ĐẠI HỌC ĐẠI NAM
+© 2025 NHÓM 9, CNTT17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
 
 
 
