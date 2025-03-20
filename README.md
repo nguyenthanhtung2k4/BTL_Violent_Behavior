@@ -249,11 +249,12 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 - Kết quả của mô hình 3D CNN ( Video không chứa bạo lực)
 
 
-### Kết quả Video 
+### 📺 Kết quả Video 
 
 ---
 
-👉👉[Ở đây](https://drive.google.com/drive/folders/1OQdB40zJs_RCZeEW87eFsBYohA04_Ubx?usp=sharing) 📺
+👉👉 [![Nhấp Vào để xem Kết quả](./reluts/ketqua.png)](https://drive.google.com/drive/folders/1OQdB40zJs_RCZeEW87eFsBYohA04_Ubx?usp=sharing) 👈👈
+- Nhấp vào 👆 xem kết quả
 ---
 
 ## 🤝 Đóng góp
