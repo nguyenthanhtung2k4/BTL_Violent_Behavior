@@ -263,7 +263,7 @@ Dự án được phát triển bởi 3 thành viên:
 | Họ và Tên       | Vai trò                  |
 |-----------------|--------------------------|
 | Nguyễn Thanh Tùng | Phát triển toàn bộ mã nguồn , hỗ trợ tài bài báo cáo|
-| Lê Văn Vượng |Thiết kế slide PowerPoint, hỗ trợ bài tập lớn, thuyết trình, tìm kiếm dataset|
+| Lê Văn Vượng |Hỗ trợ bài tập lớn, thuyết trình, tìm kiếm dataset|
 | Nguyễn Quang Thịnh   | Biên soạn tài liệu Overleaf,Thiết kế slide PowerPoint|
 
 © 2025 NHÓM 9, CNTT17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
