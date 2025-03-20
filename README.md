@@ -37,12 +37,9 @@ Dự án "Violent_Behavior" tập trung vào việc phát hiện và phân loạ
   <img src="images/Quytrinhdiemdanh.png" alt="System Architecture" width="800"/>
 </p> -->
 ### 📽️ Video giới thiệu
-<iframe src="https://drive.google.com/file/d/1HvBPPRdxFYG13r6tVnW1RFvl2_G_gxUs/preview" width="640" height="360"></iframe>
 
 
-<!-- <p align="center">
-  <img src="https://youtu.be/pzc_UhXSMHM?si=CYVP0-Q0orwF2lXM" alt="About" width="800"/>
-</p> -->
+[![VideoVideo](reluts/video.png)](https://drive.google.com/file/d/1HvBPPRdxFYG13r6tVnW1RFvl2_G_gxUs/view?usp=sharing)
 
 ## 👨‍🏫 Thành viên:
 
@@ -250,6 +247,13 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 ---
 ![img](./reluts/imageRealTest3D.png)
 - Kết quả của mô hình 3D CNN ( Video không chứa bạo lực)
+
+
+### Kết quả Video 
+
+---
+
+👉👉[Ở đây](https://drive.google.com/drive/folders/1OQdB40zJs_RCZeEW87eFsBYohA04_Ubx?usp=sharing) 📺
 ---
 
 ## 🤝 Đóng góp
