@@ -37,7 +37,7 @@ Dự án "Violent_Behavior" tập trung vào việc phát hiện và phân loạ
   <img src="images/Quytrinhdiemdanh.png" alt="System Architecture" width="800"/>
 </p> -->
 ### 📽️ Video giới thiệu
-<iframe src="https://drive.google.com/file/d/1OQdB40zJs_RCZeEW87eFsBYohA04_Ubx/preview" width="640" height="360"></iframe>
+<iframe src="https://drive.google.com/file/d/1HvBPPRdxFYG13r6tVnW1RFvl2_G_gxUs/preview" width="640" height="360"></iframe>
 
 
 <!-- <p align="center">
