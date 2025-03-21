@@ -262,7 +262,7 @@ Dự án được phát triển bởi 3 thành viên:
 
 | Họ và Tên       | Vai trò                  |
 |-----------------|--------------------------|
-| Nguyễn Thanh Tùng | Phát triển toàn bộ mã nguồn , hỗ trợ tài bài báo cáo|
+| Nguyễn Thanh Tùng | Phát triển toàn bộ mã nguồn , hỗ trợ bài tập lớn|
 | Lê Văn Vượng |Hỗ trợ bài tập lớn, thuyết trình, tìm kiếm dataset|
 | Nguyễn Quang Thịnh   | Biên soạn tài liệu Overleaf,Thiết kế slide PowerPoint|
 
