@@ -76,6 +76,7 @@ Dự án "Violent_Behavior" tập trung vào việc phát hiện và phân loạ
 ├── 📂 xuat  # Thư mục chứa Dữ liệu video<br>
 ├── 📄 [[requiment.txt](requiment.txt)]  # File Setup các thư viên<br>
 ├── 📄 [[.gitignore](.gitignore)]  # File chứa thông tin file không muốn đẩy lên git<br>
+├── 📄 [[Overleaf HÀNH VI BẠO LỰC TRONG ĐÁM ĐÔNG.pdf](<BÁO CÁO HÀNH VI BẠO LỰC TRONG ĐÁM ĐÔNG.pdf>)] # Bài báo cáo viết bằng overleaf<br>
 
 
 
