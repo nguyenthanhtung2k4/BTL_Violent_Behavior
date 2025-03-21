@@ -42,7 +42,9 @@ Dự án "Violent_Behavior" tập trung vào việc phát hiện và phân loạ
 [![VideoVideo](reluts/video.png)](https://drive.google.com/file/d/1HvBPPRdxFYG13r6tVnW1RFvl2_G_gxUs/view?usp=sharing)
 
 ## 👨‍🏫 Thành viên:
-<div align="center">
+<div align="center"><br>
+
+  
 | MSV        | Họ và tên           | Tên trường           |
 | :--------- | :------------------ | :------------------- |
 | 1771020729 | Nguyễn Thanh Tùng   | Dai Nam University  |
@@ -230,8 +232,10 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 
 ## Đánh giá & Kết quả:
 ### Đánh giá mô hình
-<div align="center">
 ---
+<div align="center">
+  <br>
+  
 | Chỉ số|  3D CNN | 2D CNN|
 |-----------------|----------------|----------------|
 |Accuracy |97.67% |78.63%|
@@ -241,6 +245,7 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 |frame| 20 |20|
 |img_size| 112x112|112x112|
 |bath|8|32|
+<br>
 </div>
 
 - Kết quả huấn luyện mô hình 3D CNN
@@ -264,12 +269,15 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 ## 🤝 Đóng góp
 Dự án được phát triển bởi 3 thành viên:
 <div align="center">
+  <br> 
+  
 | Họ và Tên       | Vai trò                  |
 |-----------------|--------------------------|
 | Nguyễn Thanh Tùng | Phát triển toàn bộ mã nguồn , hỗ trợ bài tập lớn|
 | Lê Văn Vượng |Hỗ trợ bài tập lớn, thuyết trình, tìm kiếm dataset|
 | Nguyễn Quang Thịnh   | Biên soạn tài liệu Overleaf,Thiết kế slide PowerPoint|
 
+<br>
 
 © 2025 NHÓM 9, CNTT17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
 </div>
