@@ -24,4 +24,4 @@ env_BaoLuc/*
 # Loại bỏ data da  zip  roi
 *.zip
 
-!Diem-danh-bang-ma-QRCode/
+reluts/thamkhao/*
