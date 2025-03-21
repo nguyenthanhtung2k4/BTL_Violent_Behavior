@@ -42,13 +42,17 @@ Dự án "Violent_Behavior" tập trung vào việc phát hiện và phân loạ
 [![VideoVideo](reluts/video.png)](https://drive.google.com/file/d/1HvBPPRdxFYG13r6tVnW1RFvl2_G_gxUs/view?usp=sharing)
 
 ## 👨‍🏫 Thành viên:
+<div align="center"><br>
 
+  
 | MSV        | Họ và tên           | Tên trường           |
 | :--------- | :------------------ | :------------------- |
 | 1771020729 | Nguyễn Thanh Tùng   | Dai Nam University  |
 | 1771020771 | Lê Văn Vượng        | Dai Nam University  |
 | 1771020650 | Nguyễn Quang Thịnh | Dai Nam University  |
 <br>
+
+</div>
 ---
 
 ## 📂 Cấu trúc dự án
@@ -230,6 +234,9 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 ## Đánh giá & Kết quả:
 ### Đánh giá mô hình
 ---
+<div align="center">
+  <br>
+  
 | Chỉ số|  3D CNN | 2D CNN|
 |-----------------|----------------|----------------|
 |Accuracy |97.67% |78.63%|
@@ -239,7 +246,8 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 |frame| 20 |20|
 |img_size| 112x112|112x112|
 |bath|8|32|
-
+<br>
+</div>
 
 - Kết quả huấn luyện mô hình 3D CNN
 ![img](./reluts/image3D.png)
@@ -249,26 +257,31 @@ Cài đặt Python 3 nếu chưa có, sau đó cài đặt các thư viện cầ
 ![img](./reluts/imageRealTest3D.png)
 - Kết quả của mô hình 3D CNN ( Video không chứa bạo lực)
 
-
+<div align="center">
 ### 📺 Kết quả Video 
 
 ---
 
 👉👉 [![Nhấp Vào để xem Kết quả](./reluts/ketqua.png)](https://drive.google.com/drive/folders/1OQdB40zJs_RCZeEW87eFsBYohA04_Ubx?usp=sharing) 👈👈
 - Nhấp vào 👆 xem kết quả
+  </div>
 ---
 
 ## 🤝 Đóng góp
 Dự án được phát triển bởi 3 thành viên:
-
+<div align="center">
+  <br> 
+  
 | Họ và Tên       | Vai trò                  |
 |-----------------|--------------------------|
-| Nguyễn Thanh Tùng | Phát triển toàn bộ mã nguồn , hỗ trợ tài bài báo cáo|
-| Lê Văn Vượng |Thiết kế slide PowerPoint, hỗ trợ bài tập lớn, thuyết trình, tìm kiếm dataset|
+| Nguyễn Thanh Tùng | Phát triển toàn bộ mã nguồn , hỗ trợ bài tập lớn|
+| Lê Văn Vượng |Hỗ trợ bài tập lớn, thuyết trình, tìm kiếm dataset|
 | Nguyễn Quang Thịnh   | Biên soạn tài liệu Overleaf,Thiết kế slide PowerPoint|
 
-© 2025 NHÓM 9, CNTT17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
+<br>
 
+© 2025 NHÓM 9, CNTT17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
+</div>
 
 
 
